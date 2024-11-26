@@ -7,6 +7,8 @@ curl -X POST -H "Content-Type: application/json" \
 -d '{"name": "Coke", "quantity": 10, "cost": 1.5}' \
 http://localhost:5000/beverages
 
+curl -X POST -H "Content-Type: application/json" -d "{\"name\": \"Coke\", \"quantity\": 10, \"cost\": 1.5}" http://localhost:5000/beverages
+
 
 curl http://localhost:5000/beverages
 
